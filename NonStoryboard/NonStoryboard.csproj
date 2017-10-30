@@ -103,5 +103,11 @@
     <Compile Include="AppDelegate.cs" />
     <Compile Include="ViewController.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NonStoryboard.Core\NonStoryboard.Core.csproj">
+      <Project>{5891C311-66EB-43B2-835D-37BFECCD96E6}</Project>
+      <Name>NonStoryboard.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
